@@ -65,6 +65,7 @@ const StyledButton = styled.button`
 	border-radius: 2px;
 
 	background: #431c60;
+	opacity: 1;
 
 	font-family: "runda";
 	font-size: 10px;

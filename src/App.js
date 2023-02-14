@@ -9,8 +9,11 @@ function App() {
 	return (
 		<Page>
 			<GlobalStyle />
+
 			<img src={mainPhoto} alt="" />
+
 			<Title>Let’s get you there…</Title>
+
 			<BoardingNow />
 			<UserPlans />
 			<BottomBar />

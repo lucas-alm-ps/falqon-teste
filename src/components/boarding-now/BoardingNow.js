@@ -1,6 +1,4 @@
 import styled from "styled-components";
-import FlightCode from "./FlightCode";
-import FlightInfo from "./FlightInfo";
 import FlightPanel from "./FlightPanel";
 
 export default function BoardingNow() {
@@ -16,16 +14,15 @@ export default function BoardingNow() {
 	);
 }
 
-const Square = styled.div`
+const Square = styled.section`
 	width: 100%;
 	height: 279px;
-	opacity: 0.91;
 
 	border-radius: 2px;
 
 	filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.53));
 
-	background: #272727;
+	background: rgba(33, 33, 33, 0.9);
 `;
 
 const BoardInfo = styled.div`
