@@ -4,6 +4,7 @@ import GlobalStyle from "./styles/GlobalStyle";
 import mainPhoto from "./assets/newyork-skyline.jpg";
 import BoardingNow from "./components/boarding-now/BoardingNow";
 import UserPlans from "./components/plans/UserPlans";
+import TransportOptions from "./components/transport-options/TransportOptions";
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 
 			<BoardingNow />
 			<UserPlans />
+			<TransportOptions />
 			<BottomBar />
 		</Page>
 	);
