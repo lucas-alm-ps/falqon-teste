@@ -34,6 +34,9 @@ const Page = styled.div`
 	margin-bottom: 55px;
 	overflow-y: scroll;
 	position: relative;
+	@media (min-width: 790px) {
+		padding: 30px 250px;
+	}
 `;
 
 const StyledImg = styled.img`

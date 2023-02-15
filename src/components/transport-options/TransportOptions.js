@@ -105,4 +105,8 @@ const Line = styled.hr`
 const Options = styled.div`
 	display: flex;
 	justify-content: space-between;
+
+	@media (min-width: 790px) {
+		justify-content: space-around;
+	}
 `;

@@ -85,6 +85,13 @@ const Info = styled.div`
 	span {
 		color: #8bc34a;
 	}
+
+	@media (min-width: 790px) {
+		img {
+			width: 50px;
+			height: 50px;
+		}
+	}
 `;
 
 const ItemBox = styled.div`
@@ -92,9 +99,11 @@ const ItemBox = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
+	margin-bottom: 5px;
 
 	p {
 		margin-top: auto;
+		width: 100%;
 		margin-left: 65px;
 		margin-right: 95px;
 
@@ -145,6 +154,10 @@ const Message = styled.h3`
 	font-style: normal;
 	text-align: left;
 	color: #ffffff;
+
+	@media (min-width: 790px) {
+		font-size: 18px;
+	}
 `;
 
 const Title = styled.h3`
