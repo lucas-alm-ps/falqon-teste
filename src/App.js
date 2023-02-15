@@ -11,7 +11,7 @@ function App() {
 		<Page>
 			<GlobalStyle />
 
-			<img src={mainPhoto} alt="" />
+			<StyledImg src={mainPhoto} alt="" />
 
 			<Title>Let’s get you there…</Title>
 
@@ -27,22 +27,22 @@ export default App;
 
 const Page = styled.div`
 	width: 100vw;
-	height: 100vh;
 	background-color: #261136;
 
 	box-sizing: border-box;
 	padding: 30px 20px;
 	margin-bottom: 55px;
 	overflow-y: scroll;
+	position: relative;
+`;
 
-	img {
-		width: 100vw;
-		height: 370px;
-		object-fit: cover;
-		position: fixed;
-		top: 0;
-		left: 0;
-	}
+const StyledImg = styled.img`
+	width: 100vw;
+	height: 370px;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
 `;
 
 const Title = styled.h1`

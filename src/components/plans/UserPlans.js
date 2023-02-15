@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { HiPlus as AddIcon } from "react-icons/hi";
 import UserHotel from "./UserHotel";
 import UserTrip from "./UserTrip";
+import PickUp from "../picking-up/PickUp";
 
 export default function UserPlans() {
 	return (
@@ -14,6 +15,7 @@ export default function UserPlans() {
 			</TitleBox>
 
 			<UserHotel />
+			<PickUp />
 			<UserTrip />
 		</StyledSection>
 	);
