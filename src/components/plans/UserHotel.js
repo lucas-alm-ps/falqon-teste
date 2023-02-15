@@ -38,9 +38,8 @@ const Square = styled.section`
 	margin-bottom: 20px;
 
 	img {
-		height: 280px;
+		width: 100%;
 		object-fit: cover;
-		object-position: bottom;
 		position: absolute;
 		top: 0;
 		left: 0;
